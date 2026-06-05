@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Environment
+.env
+
+# Data and artifacts
+# Keep sample/raw CSV for this project demo, but ignore generated files
+/data/processed/*.parquet
+/models/*.joblib
+/reports/*.json
+/reports/*.png
+/reports/*.csv
+/mlruns/
+mlflow.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
